@@ -7,3 +7,9 @@
 Hadoop集群是3.3，建议pom.xml的hadoop依赖包也是3.3
 
 ## MapReduce单词统计
+
+mapred-default.xml mapred-site.xml 调优化调参
+
+## MapReduce 倒排索引
+
+InvertedIndex

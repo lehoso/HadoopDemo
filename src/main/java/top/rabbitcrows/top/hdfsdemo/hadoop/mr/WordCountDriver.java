@@ -1,4 +1,4 @@
-package top.rabbitcrows.top.hdfsdemo.mr;
+package top.rabbitcrows.top.hdfsdemo.hadoop.mr;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.Path;
@@ -40,9 +40,9 @@ public class WordCountDriver {
         wcjob.setCombinerClass(WordCountCombiner.class);
 
         // 指定要处理的数据所在的位置
-        FileInputFormat.setInputPaths(wcjob, "input/*.*");
+        FileInputFormat.setInputPaths(wcjob, new Path("input/mr"));
         // 指定处理完成之后的结果所保存的位置
-        FileOutputFormat.setOutputPath(wcjob, new Path("output"));
+        FileOutputFormat.setOutputPath(wcjob, new Path("output/mr"));
 
         // 提交程序并且监控打印程序执行情况
         boolean res = wcjob.waitForCompletion(true);

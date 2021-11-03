@@ -1,4 +1,4 @@
-package top.rabbitcrows.top.hdfsdemo.mr;
+package top.rabbitcrows.top.hdfsdemo.hadoop.mr;
 
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.Text;
