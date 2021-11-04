@@ -1,4 +1,4 @@
-package top.rabbitcrows.top.hdfsdemo.mr.InvertedIndex;
+package rabbitcrows.top.mr.InvertedIndex;
 
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Reducer;

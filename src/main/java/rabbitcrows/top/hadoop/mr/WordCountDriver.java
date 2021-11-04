@@ -1,4 +1,4 @@
-package top.rabbitcrows.top.hdfsdemo.hadoop.mr;
+package rabbitcrows.top.hadoop.mr;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.Path;

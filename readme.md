@@ -13,3 +13,6 @@ mapred-default.xml mapred-site.xml 调优化调参
 ## MapReduce 倒排索引
 
 InvertedIndex
+
+## MapReduce 数据去重
+Dedup
