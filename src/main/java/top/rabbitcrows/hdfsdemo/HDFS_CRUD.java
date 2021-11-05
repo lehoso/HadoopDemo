@@ -108,4 +108,18 @@ public class HDFS_CRUD {
             //若测试显示信息太多，可以删除或者禁用log4j
         }
     }
+
+    // 查看文件及文件夹信息
+    @Test
+    public void testListAll() throws FileNotFoundException, IllegalArgumentException, IOException {
+        // 获取HDFS系统中文件和目录的元数据等信息
+        FileStatus[] listStatus = fs.listStatus(new Path("/"));
+        String flag = "d--             ";
+        for (FileStatus fstatus : listStatus) {
+            // 判断是文件还是文件夹
+            if (fstatus.isFile())
+                flag = "f--         ";
+            System.out.println(flag + fstatus.getPath().getName());
+        }
+    }
 }

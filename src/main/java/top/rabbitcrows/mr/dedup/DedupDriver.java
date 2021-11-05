@@ -28,6 +28,8 @@ public class DedupDriver {
         job.setMapOutputValueClass(NullWritable.class);
 
         FileInputFormat.setInputPaths(job, new Path("input/Dedup"));
+
+        // 指定处理完成之后的结果所保存的位置
         FileOutputFormat.setOutputPath(job, new Path("output/Dedup"));
 
         job.waitForCompletion(true);

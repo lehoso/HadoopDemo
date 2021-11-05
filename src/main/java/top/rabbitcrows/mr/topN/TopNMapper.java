@@ -18,6 +18,8 @@ public class TopNMapper extends Mapper<LongWritable, Text, NullWritable, IntWrit
 
     private TreeMap<Integer, String> repToRecordMap = new TreeMap<Integer, String>();
 
+    // <0,10 3 8 7 6 5 1 2 9 4>
+    // <xx,11 12 17 14 15 20>
     @Override
     protected void map(LongWritable key, Text value, Mapper<LongWritable, Text, NullWritable, IntWritable>.Context context) throws IOException, InterruptedException {
         String line = value.toString();
