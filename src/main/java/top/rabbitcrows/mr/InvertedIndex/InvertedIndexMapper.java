@@ -1,4 +1,4 @@
-package rabbitcrows.top.mr.InvertedIndex;
+package top.rabbitcrows.mr.InvertedIndex;
 
 import org.apache.commons.lang3.StringUtils;
 import org.apache.hadoop.io.LongWritable;

@@ -1,4 +1,4 @@
-package rabbitcrows.top.mr.dedup;
+package top.rabbitcrows.mr.dedup;
 
 import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.NullWritable;

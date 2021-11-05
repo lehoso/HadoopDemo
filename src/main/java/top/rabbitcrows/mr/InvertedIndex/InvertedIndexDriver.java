@@ -1,4 +1,4 @@
-package rabbitcrows.top.mr.InvertedIndex;
+package top.rabbitcrows.mr.InvertedIndex;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.Path;

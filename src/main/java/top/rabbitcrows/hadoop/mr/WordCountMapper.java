@@ -1,4 +1,4 @@
-package rabbitcrows.top.hadoop.mr;
+package top.rabbitcrows.hadoop.mr;
 
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.LongWritable;
