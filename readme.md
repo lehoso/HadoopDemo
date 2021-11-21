@@ -1,5 +1,8 @@
 # 注意事项
 
+## hdfsdemo通过HDFS上传下载文件
+HDFS_CRUD
+
 ## windows环境下需要使用uitls.exe
 
 可从github下载，并且要设置环境变量 HADOOP_HOME=Location 【安装解压的位置】 PATH添加：%HADOOP_HOME%\bin 和 %HADOOP_HOME%\sbin
@@ -16,3 +19,6 @@ InvertedIndex
 
 ## MapReduce 数据去重
 Dedup
+
+## ZookeeperTest
+zookeeper API 使用java

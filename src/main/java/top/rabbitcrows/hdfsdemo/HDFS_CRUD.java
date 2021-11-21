@@ -23,7 +23,7 @@ public class HDFS_CRUD {
         //构造一个配置参数对象，设置一个参数：要访问的HDFS的URI
         Configuration conf = new Configuration();
         //这里指定使用的是HDFS
-        conf.set("fs.defaultFS", "hdfs://192.168.100.10:9000");
+        conf.set("fs.defaultFS", "hdfs://192.168.142.10:9000");
         //通过如下的方式进行客户端身份的设置
         System.setProperty("HADOOP_USER_NAME", "root");
         //通过FileSystem的静态方法获取文件系统客户端对象
